@@ -63,7 +63,6 @@ body {
 
 .logo-accent {
     color:var(--primary-font-color);
-    
 }
 
 .container {
@@ -125,7 +124,7 @@ color:var(--primary-font-color);
     color: var(--primary-font-color);
     padding-top: 32px;
     padding-bottom: 32px;
-    transition: transform 250ms linear;
+    transition: color 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -136,7 +135,7 @@ color:var(--primary-font-color);
 
 .header-contact:hover,
 .header-contact:focus {
-    color: var(--first-background-color)
+    color: var(--first-background-color);
 }
 
 .header-contact {
@@ -148,15 +147,14 @@ color:var(--primary-font-color);
     text-align: center;
     padding: 32px 0;
     fill: var(--secondary-font-color);
-    
+    transition: color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-contact{
+.header-contact {
     margin-left: 50px;
     display: flex;
     align-items: center;
-    transition: transform 250ms linear;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list {
@@ -167,7 +165,6 @@ color:var(--primary-font-color);
 .contact-icon-smartphone {
     fill: currentColor;
     margin-right: 10px;
-    
 }
 
 .contact-icon:hover,
@@ -181,7 +178,7 @@ color:var(--primary-font-color);
     
 }
 
-.current:hover:after {
+.current:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -191,8 +188,6 @@ color:var(--primary-font-color);
     background-color: #2196f3;
     border-radius: 2px;
 }
-
-
 
 /* ----------------HERO----------------- */
 
@@ -237,7 +232,7 @@ color:var(--primary-font-color);
     margin-left: auto;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    transition: transform 250ms linear;
+    transition: transform 1000ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -411,7 +406,7 @@ color:var(--primary-font-color);
     height: 100%;
     border-radius: 50%;
     background-color: var(--third-font-color);
-    transition: transform 250ms linear;
+    transition: background-color 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -423,7 +418,7 @@ color:var(--primary-font-color);
 
 .team-soc-icon{
     fill:#AFB1B8;
-    transition: transform 250ms linear;
+    transition: fill 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -451,6 +446,8 @@ color:var(--primary-font-color);
     margin-left: 30px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    transition: border 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clietnst-list-item:first-child{
@@ -473,7 +470,7 @@ color:var(--primary-font-color);
 
 .clients-company-icon{
     fill:currentColor;
-    transition: transform 250ms linear;
+    transition: fill 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -567,7 +564,7 @@ color:var(--primary-font-color);
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
     fill: var(--third-font-color);
-    transition: transform 250ms linear;
+    transition: background-color 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -615,8 +612,7 @@ color:var(--primary-font-color);
     padding: 6px 22px;
     background: #f5f4fa;
     border-radius: 4px;
-    transition: transform 250ms linear;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms linear, color 250ms linear;
 }
 
 .galery-filter {
